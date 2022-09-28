@@ -1,0 +1,20 @@
+<ion-header>
+<ion-toolbar color="primary">
+  <ion-buttons slot="start">
+    <ion-menu-button menu="principal"></ion-menu-button>
+  <ion-title>Inicio</ion-title>
+  </ion-buttons>
+</ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item [routerLink]="item.link" detail="" *ngFor="let item of componentes | async">
+      <ion-icon [name]="item.icone" slot="start"></ion-icon>
+      <ion-label>{{item.nome}}</ion-label>
+    </ion-item>
+  </ion-list>
+
+  <ion-button color="secondary" expand="full" href="alert">Alert</ion-button>
+  <ion-button color="danger" expand="full" href="action-sheet">Modal</ion-button>
+</ion-content>

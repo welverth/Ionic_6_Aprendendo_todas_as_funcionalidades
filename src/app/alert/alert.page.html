@@ -1,0 +1,14 @@
+<app-header [titulo] ="titulo || 'Página de Alerta' "></app-header>
+
+
+<ion-content>
+  <ion-button name="start" color="tertiary" expand="block" (click)="presentAlert()">Chamar Alert</ion-button>
+  <ion-button name="start" color="warning" expand="block" (click)="presentAlertInput()">Chamar Input</ion-button>
+  <span></span>
+  <ion-list>
+    <ion-item>
+      <ion-label>Followers</ion-label>
+      <ion-badge color="primary">22k</ion-badge>
+    </ion-item>
+  </ion-list>
+</ion-content>

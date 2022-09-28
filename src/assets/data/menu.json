@@ -1,0 +1,42 @@
+[
+  {
+  "icone": "attach-outline",
+  "nome": "Alerta",
+  "link": "/alert"
+  },
+  {
+    "icone": "chatbubble-ellipses-outline",
+    "nome": "Modal",
+    "link": "/action-sheet"
+  },
+  {
+    "icone": "book-outline",
+    "nome": "Cards",
+    "link": "/cards"
+  },
+  {
+    "icone": "calendar-outline",
+    "nome": "Datas",
+    "link": "/datas"
+  },
+  {
+    "icone": "grid-outline",
+    "nome": "Tabelas",
+    "link": "/grids"
+  },
+  {
+    "icone": "hardware-chip-outline",
+    "nome": "Inputs",
+    "link": "/input"
+  },
+  {
+    "icone": "chatbox-ellipses-outline",
+    "nome": "Toast",
+    "link": "/toast"
+  },
+  {
+    "icone": "code-outline",
+    "nome": "Slides",
+    "link": "/slide"
+  }
+]
